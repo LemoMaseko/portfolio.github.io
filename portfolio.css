@@ -1,0 +1,154 @@
+body{
+	font-family: Ariel, sans-serif;
+	/*color: #C5ADC5;
+	color: #323232;*/
+	color:blanchedalmondc;
+	/*background-color: #E9F1FA;*/
+	background-color: beige;
+	font-size: 20px;
+}
+.name{
+	color: deeppink;
+}
+h2{
+	font-size: 30px;
+	
+	color: deeppink;
+	
+}
+
+ nav ul{  
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   /*ackground-color: #444;*/
+   text-align: center;
+
+ }
+ nav li{
+ 	float: right;
+ 	font-size: 1.2em;
+ 	line-height: 40px;
+ 	height: 40px;
+ 	border-bottom: 1px solid #393434;
+ }
+
+ nav a {
+ 	text-decoration: none;
+ 	color: black;
+ 	display: block;
+ 	text-transform: uppercase;
+ 	padding: 4px;
+ 	font-weight: bold;
+ 	width: 120px;
+ }
+nav a:hover , a:active{
+	background-color: deeppink;
+
+}
+button{
+	padding: 10px 20px;
+	background-color: deeppink;
+	color: blanchedalmondc;
+	border-bottom: none;
+	border-radius: 5px;
+	cursor: pointer;
+
+}
+button:hover{
+	background-color: lightpink;
+}
+.name{
+	font-size: 45px;
+}
+.intro{
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 40px;
+	font-size: 40px;
+	
+	text-decoration: blink;
+}
+
+
+a{
+	color: deeppink;
+	font-weight: bold;
+}
+
+a:hover{
+	background-color: lightpink;
+}
+.card{
+	width:300px;
+	background-color: #fff;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+	overflow:hidden;
+}
+
+.header{
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+	font-size: 18px;
+}
+.body{
+	padding: 20px;
+}
+.skill-level{
+	width: 120px;
+	height: 10px;
+	background-color: #eee;
+	border-radius: 10px;
+	overflow: hidden;
+	margin-left: 20px;
+}
+
+.skill-percent-number{
+	margin-left: 20px;
+	font-size: 16px;
+}
+
+
+@media screen and (max-width:960px){
+	#wrapper{
+		width: 100%;
+	}
+
+	nav a{
+		width: 80px;
+
+	}
+}
+
+@media screen and (max-width:600px){
+	header{
+		height: 50px;
+		padding:0;
+
+	}
+nav a {
+	width: 100%;
+	padding: 0.2px;
+	margin: 2px;
+
+}
+nav li{
+	font-size: 0.7em;	
+	line-height: 20px;
+	height: 20px;
+
+}
+h2,h3{
+	font-size: 1em;
+}
+.intro{
+	display: none;
+}
+section{
+	width: auto;
+	float: none;
+}
